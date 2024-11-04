@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+.App-container {
+ width: 100vw;
+ padding:16px;
+ 
+}
