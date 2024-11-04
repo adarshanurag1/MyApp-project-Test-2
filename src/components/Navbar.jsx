@@ -36,7 +36,7 @@ function Navbar({grouping, ordering, setGrouping, setOrdering}) {
                     </select>
                 </div>
                 <div className='display-setting'>
-                    <div>Sorting</div>
+                    <div>Ordering</div>
                     <select value={capitalize(ordering)} onChange={e => {console.log(e); setOrdering(e.target.children[e.target.selectedIndex].getAttribute('data-id'))}}>
                         <option key='title' data-id='title'>Title</option>
                         {grouping !== 'priority' ? <option key='priority' data-id='priority'>Priority</option> : null}
